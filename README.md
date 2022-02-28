@@ -6,4 +6,4 @@
 
 **DAY 2**
 
-![screenshot](../images/day_2.gif)
+![screenshot](./images/day_2.gif)
