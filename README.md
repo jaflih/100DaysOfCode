@@ -7,3 +7,7 @@
 **DAY 2**
 
 ![screenshot](./images/day_2.gif)
+
+**DAY 3**
+
+![screenshot](./images/day_3.gif)
