@@ -1,0 +1,43 @@
+section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.montre {
+  width: 220px;
+  height: 220px;
+  background-color: cadetblue;
+  border-radius: 100%;
+  box-shadow: 2px 3px 6px gray;
+  position: relative;
+  border: 10px solid black;
+}
+
+.needle {
+  width: 100px;
+  height: 4px;
+  margin: 20px;
+  position: absolute;
+  top: 86px;
+  left: -14px;
+  transform-origin: 100%;
+}
+
+.n-hour {
+  background-color: white;
+  height: 5px;
+  width: 80px;
+  top: 84px;
+  left: 6px;
+}
+
+.n-minute {
+  background-color: white;
+}
+
+.n-second {
+  background-color: #dae92e;
+}
