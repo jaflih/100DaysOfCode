@@ -1,0 +1,40 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  background-image: url('cat.jpg');
+  background-repeat: no-repeat;
+}
+
+.box {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  align-content: baseline;
+  opacity: 1;
+  transition: 1000ms opacity;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.puzzle {
+  width: 100px;
+  height: 100px;
+  background-image: url('cat.jpg');
+  margin: 10px;
+  opacity: 0;
+  transition: 1000ms opacity;
+  background-repeat: no-repeat;
+}
+
+.show {
+  opacity: 1;
+}
