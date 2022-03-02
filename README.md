@@ -11,3 +11,7 @@
 **DAY 3**
 
 ![screenshot](./images/day_3.gif)
+
+**DAY 4**
+
+![screenshot](./images/day_4.gif)
