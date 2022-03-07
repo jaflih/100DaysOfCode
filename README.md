@@ -19,3 +19,7 @@
 **DAY 5**
 
 ![screenshot](./images/day_5.gif)
+
+**DAY 6**
+
+![screenshot](./images/day_6.gif)
