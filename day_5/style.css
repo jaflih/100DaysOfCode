@@ -1,0 +1,48 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.pulse {
+  background-color: plum;
+  box-shadow: 0 0 0 0 plum;
+  animation: pulse 1.2s infinite;
+}
+
+.black {
+  background-color: #000;
+  box-shadow: 0 0 0 0 #000;
+  animation: pulse-black 1.2s infinite;
+}
+
+.violet {
+  background-color: #fff;
+  box-shadow: 0 0 0 0 #000;
+  animation: pulse 1.2s infinite;
+}
+
+.rose {
+  background-color: plum;
+  box-shadow: 0 0 0 0 plum;
+  animation: pulse-black 1.2s infinite;
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 18px #dda0dd61;
+  }
+}
+
+@keyframes pulse-black {
+  to {
+    box-shadow: 0 0 0 18px rgba(0, 0, 0, 0.1);
+  }
+}
