@@ -27,3 +27,7 @@
 **DAY 7**
 
 ![screenshot](./images/day_7.gif)
+
+**DAY 8**
+
+![screenshot](./images/day_8.gif)
