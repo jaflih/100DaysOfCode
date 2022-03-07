@@ -23,3 +23,7 @@
 **DAY 6**
 
 ![screenshot](./images/day_6.gif)
+
+**DAY 7**
+
+![screenshot](./images/day_7.gif)
