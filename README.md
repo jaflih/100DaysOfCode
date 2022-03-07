@@ -15,3 +15,7 @@
 **DAY 4**
 
 ![screenshot](./images/day_4.gif)
+
+**DAY 5**
+
+![screenshot](./images/day_5.gif)
