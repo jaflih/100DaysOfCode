@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.barre {
+  position: relative;
+
+  width: 25px;
+  height: 3px;
+  background-color: violet;
+  margin: 3px;
+  transition: all 0.3s;
+}
+
+.btnButton {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+input[type='checkbox']:checked ~ label .diagonal1 {
+  transform: rotate(135deg);
+  margin-top: 10px;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+input[type='checkbox']:checked ~ label .diagonal2 {
+  transform: rotate(-135deg);
+  margin-top: 10px;
+  position: absolute;
+  transition: all 0.3s;
+}
+
+input[type='checkbox']:checked ~ label .diagonal0 {
+  opacity: 0;
+}
