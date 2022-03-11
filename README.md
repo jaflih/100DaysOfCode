@@ -35,7 +35,7 @@
 **DAY 9 10 11**
 
 ![screenshot](./day_9_10_11/metrics.gif)
-![screenshot](./day_9_10_11/cypress.gif)
+![screenshot](./day_9_10_11/cypress.png)
 ![screenshot](./day_9_10_11/jest.png)
 
 **DAY 12**
